@@ -1,0 +1,32 @@
+body {
+  background-color: var(--bg-color, #002766);
+  color: white;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.header-row {
+  background-color: white;
+  height: 50px;
+  padding-right: 1rem;
+  margin-bottom: 120px;
+}
+.logo-container {
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  top: -30px;
+  left: 0;
+  border-radius: 0% 0% 50% 50%;
+  position: absolute;
+}
+.logo {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.list-item {
+  cursor: pointer;
+  background-color: white;
+}
